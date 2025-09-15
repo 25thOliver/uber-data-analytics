@@ -127,23 +127,42 @@ The dashboard connects to MinIO object storage:
 ## Dashboard Features
 
 ### Interactive Visualizations
+
+![Dashboard Overview](images/dashboard_overview.png)
+*Main dashboard showing KPIs and key metrics*
+
 1. **Booking Status Distribution**: Bar chart showing ride completion rates
+   ![Booking Status](images/booking_status_chart.png)
+
 2. **Daily Revenue Trends**: Time series analysis of revenue patterns
+   ![Revenue Trends](images/daily_revenue_trend.png)
+
 3. **Payment Method Breakdown**: Distribution of payment preferences
+   ![Payment Methods](images/payment_methods.png)
+
 4. **Rating Analysis**: Histogram comparing driver vs customer ratings
+   ![Rating Distribution](images/rating_analysis.png)
+
 5. **Cancellation Heatmap**: Hour-by-hour cancellation patterns by day of week
+   ![Cancellation Heatmap](images/cancellation_heatmap.png)
 
 ### Key Performance Indicators (KPIs)
-- Total rides processed
-- Completed ride count
-- Total revenue generated
-- Average driver rating
-- Average customer rating
+![KPI Dashboard](images/kpi_metrics.png)
+- Total rides processed: 150,000
+- Completed ride count: 93,000
+- Total revenue generated: ₹51,854,000
+- Average driver rating: 4.23/5.0
+- Average customer rating: 4.40/5.0
 
 ### Interactive Filters
+![Interactive Filters](images/sidebar_filters.png)
 - **Vehicle Type**: Filter by service category
 - **Booking Status**: Filter by completion status
 - **Payment Method**: Filter by payment option
+
+### Data Exploration View
+![Data Table](images/data_table_view.png)
+*Filterable data table showing ride details*
 
 ## Data Quality Notes
 
@@ -205,12 +224,5 @@ Missing data is primarily associated with:
 ## Contact & Support
 
 For questions, improvements, or collaboration opportunities:
-- **Data Team**: Contact for technical inquiries
-- **Business Intelligence**: For analytics and insights requests
-- **Development**: For feature requests and enhancements
 
 
----
-
-*Last Updated: September 2025*
-*Version: 1.0*
