@@ -1,0 +1,5 @@
+# Ignore uber virtual environment
+uber/
+
+# Ignore CSV files
+*.csv

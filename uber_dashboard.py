@@ -71,7 +71,7 @@ total_revenue = df["Booking Value"].sum()
 average_driver_rating = df["Driver Ratings"].mean()
 average_customer_rating = df["Customer Rating"].mean()
 
-col1, col2, col3, col4, col5 = st.columns(5)
+col1, col2, col3, col4, col5 = st.columns([2, 2, 4, 2, 2])
 col1.metric("Total Rides", total_rides)
 col2.metric("Completed Rides", completed_rides)
 col3.metric("Total Revenue", f"${total_revenue:,.2f}")
