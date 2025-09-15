@@ -209,9 +209,6 @@ For questions, improvements, or collaboration opportunities:
 - **Business Intelligence**: For analytics and insights requests
 - **Development**: For feature requests and enhancements
 
-## License
-
-This project is for analytical and educational purposes. Data usage should comply with applicable privacy and data protection regulations.
 
 ---
 
