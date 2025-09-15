@@ -84,11 +84,14 @@ uber-datalake/
 ![MinIO Console Login](images/minio_login.png)
 *MinIO web console login interface*
 
+
 ![MinIO Bucket Overview](images/minio_buckets.png)
 *Main buckets view showing uber-datalake*
 
-![Object Storage View](images/minio_objects_list.png)
+
+![Object Storage View](images/minio_object_list.png)
 *File listing showing different data formats across zones*
+
 
 ## Data Pipeline Implementation
 
